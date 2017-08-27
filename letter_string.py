@@ -1,7 +1,10 @@
 # _*_ coding: utf-8 _*_
+#---
 # I'm going to study Python from now on.
 #---
-
+#
+# It's been modified to learn the github.
+#
 #[文字列の連結 1]
 test_str = 'python'
 test_str = test_str + '-'
