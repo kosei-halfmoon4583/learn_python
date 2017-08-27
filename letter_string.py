@@ -3,6 +3,11 @@
 # I'm going to study Python from now on.
 #---
 #
+#[github commit rules]
+# To write overview on the first row.
+# Place space on the second row.
+# To write resouns of modified your file.
+#
 # It's been modified to learn the github.
 #
 #[文字列の連結 1]
