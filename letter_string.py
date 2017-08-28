@@ -10,6 +10,8 @@
 #
 # It's been modified to learn the github.
 #
+# for test push to the learn_python repo.
+#
 #[文字列の連結 1]
 test_str = 'python'
 test_str = test_str + '-'
