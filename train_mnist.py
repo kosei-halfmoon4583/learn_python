@@ -115,7 +115,6 @@ def practice():
   tf.summary.scalar('Cross_Entropy', cross_entropy)
 
   with tf.name_scope('Practice'):
-    #practice_step = tf.train.AdamOptimizer(FLAGS.learning_rate).minimize(cross_entropy)
     practice_step = tf.train.GradientDescentOptimizer(FLAGS.learning_rate).minimize(cross_entropy)
 
   with tf.name_scope('Accuracy'):
@@ -185,6 +184,7 @@ def main(_):
     tf.gfile.DeleteRecursively(FLAGS.log_dir)
   tf.gfile.MakeDirs(FLAGS.log_dir)
   practice()
+
 
 if __name__ == '__main__':
  # ------------------*
